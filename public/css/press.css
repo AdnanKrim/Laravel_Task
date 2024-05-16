@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.press-text {
+    color: #33892c;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.press-text h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.press-text p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

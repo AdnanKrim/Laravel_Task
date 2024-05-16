@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.pic-img img{
+    height:30rem;
+    width:100%;
+}
+.pic-text{
+   position: absolute;
+   color: aliceblue; 
+   margin-left: 28rem;
+   margin-top: 10rem;
+}
+.pic-text h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+
+}
+.only-text{
+    margin: 2rem 0;
+    text-align: center;
+}
+ section.third .about-img img{
+    height:30rem;
+    width: 80%;
+    margin-left: 5rem;
+}
+section.third .col-12 h3{
+    text-align: center;
+}
+section.third .col-12 p{
+    text-align: center;
+}
+
+.abt-tag{
+    color:  #33892c ;
+    text-align: center;
+}
+.abt-tag h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+@media only screen and (max-width: 900px){
+    .pic-text{
+        margin-left: 6rem;
+   margin-top: 10rem;
+    }
+    section.third .about-img {
+        margin-left: -4rem;
+        
+    }
+    section.third .col-12 h3{
+        margin-left: 1rem;
+    }
+    section.third .col-12 p{
+        margin-left: 1rem;
+    }
+}

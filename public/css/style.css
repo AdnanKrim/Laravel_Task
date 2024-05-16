@@ -1,0 +1,309 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family:"Italic-rex" ;
+    src: url(../fonts/DancingScript-Medium.ttf);
+}
+.body{
+    color: #232222;
+}
+.topp{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: bisque;
+}
+
+.slidex{
+    height: 100vh;
+    top: 0;
+    left: 0;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .slidex img{
+    min-height: 100vh;
+    }
+}
+.imgg{
+    height: 3rem;
+    
+}
+@media only screen and (max-width: 300px){
+    .imgg{
+        height: 2rem;
+    }
+}
+.dropdown-toggle{
+    border: none;
+    color: white;
+}
+
+.abc{
+    color: white;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+.border{
+    border-width:3px ;
+    margin-left: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-collapse a:hover{
+    background-image: url(../image/twitter.svg);
+    background-repeat: no-repeat;
+    
+}
+.navbar-collapse button:hover{
+    color:yellow;
+    transform: scale(1.3);
+}
+.dropdown-menu a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    font-size: 12px;
+    
+}
+.textclass{
+    width: 100%;
+    height: 30vh;
+    text-align:center;
+}
+.textclass p{
+    margin-top: 5rem;
+    padding:0 3rem ;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.backclass{
+    background-image:url(../images/pexels-pixabay-531321.jpg);
+    width: 100%;
+    height:50vh;
+    text-align: center;   
+    padding: 5rem 0;
+}
+.backclass h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.backclass button{
+     margin-top: 2rem;
+}
+.gridx{
+    padding: 3rem 0;
+}
+.gridin{
+    border-style: double;
+    border-width: 4px;
+    border-color: gray;
+}
+.about-img{
+    padding: 1rem;
+}
+.about-text{
+    background-color: #d0d3d4;
+    height: 21.5rem;
+    margin: 1rem 0;
+    margin-left: -2rem;
+    text-align: center;
+    padding-top: 7rem;
+
+}
+.about-text h2{
+    font-family: "Italic-rex";
+    font-size: 3rem;
+    color:  #dc7633 ;
+}
+ .about-text button{
+   margin-top: 1rem;
+   color: black;
+} 
+.about-text button:hover{
+    background-color:#dc7633 ;
+}
+section.third .about-img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+section.second .about-text{
+    margin-left: 1rem;
+    margin-right: -2rem;
+}
+section.third img{
+    width: 100%;
+    height:14rem;
+    border-style: double;
+    border-width: 5px;
+    border-color: gray;
+}
+section.third h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+section.third p{
+    /* margin-left: 1rem; */
+    text-align: center;
+    margin-top: 1rem;
+}
+section.gallery img{
+    height:12rem;
+    width: 16rem;
+    margin: 1rem 0;
+    border-style: double;
+    cursor: pointer;
+    
+}
+section.gallery .col{
+    transition: all 0.3s ease;
+}
+section.gallery .col:hover{
+     transform: scale(1.3);
+     z-index: 2;
+}
+section.gallery{
+    margin: 1rem 0;
+}
+/* for gallery modal */
+.modal-img{
+    width: 100%;
+}
+/* for form modal */
+.formz{
+    background: transparent;
+    color: aliceblue;
+}
+.formz .modal-header .btn-close{
+    background-color: bisque;
+    font-size: 30px;
+    line-height: 70px;
+}
+footer.simple{
+    background-color:  #040d2a ;
+    height: 5rem;
+    margin-top: 4rem ;
+    display: flex;
+    align-items: center;
+}
+.mainfoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainfoot .lglist img{
+    height: 2rem;
+    margin-left: 1rem;
+}
+.mainfoot .linkbtn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+}
+.mainfoot .linkbtn button{
+    margin-left: 1rem;
+    margin-top: -8px;
+}
+section.hidden{
+    display: none;
+}
+/* The end of Home PAGE */
+
+
+
+@media only screen and (max-width: 900px) {
+
+    /* Home PAGE */
+    .topp{
+        display:none;
+    }
+    .slidex{
+        opacity: 0.8;
+    }
+  
+    .collapse{
+        background:rgba(0, 0, 0, 0.5);
+         border-radius:  4px;
+         text-align: center;
+        
+    }
+     .navbar-collapse li{
+        border:0px solid black;
+        border-bottom-width: 1px; 
+     
+    }
+    .navbar-collapse li:last-child{
+        border: none;
+    }
+    
+    .navbar-collapse a{
+        color: white;
+        font-weight:bold ;
+        padding-left: 1rem ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .dropdown-menu a{
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        
+    }
+    .navbar-collapse button{
+        background-color: black;
+        color:white !important;
+        position: absolute;
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        font-weight: bold;
+        margin-left: -4rem;
+        display:none;
+    }
+   .backclass{
+    margin-top: 2rem;
+    }
+    .about-text{
+        margin-left: 1rem;
+        margin-right: 14px;
+    }
+    section.second .about-text{
+        margin-right: 1rem;
+    }
+    /* section.third img{
+        margin-left: 2rem;
+    }  */
+    /* section.third h3{
+        margin-left: 6rem;
+    } */
+    footer.simple{
+        display: none;
+    }
+
+    section.hidden{
+        background-color: #040d2a;
+        height: 5rem;
+        display: contents;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    section.hidden button{
+        height: 3rem;
+        width: 8rem;
+    }
+
+    /* the end of home page */
+    
+
+  }

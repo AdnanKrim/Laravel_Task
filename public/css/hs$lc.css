@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.texthl{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #33892c;
+    margin-top: 3rem;
+}
+.mapping{
+    margin-bottom: -4rem;
+}
+.mp-btn button{
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: 35rem;
+    background-color: #33892c;
+    font-weight: bold;
+}

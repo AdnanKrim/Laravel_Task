@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.happ,.happ2{
+    height: 45rem;
+}
+.happ .about-img img{
+    height: 43rem;
+}
+.happ .about-text{
+    height: 43rem;
+}
+.happ2 .about-img img{
+    height: 43rem;
+}
+.happ2 .about-text{
+    height: 43rem;
+}
+@media only screen and (max-width: 900px){
+    .happ, .happ2{
+        height: 60rem;
+        
+    }
+    .happ .about-img {
+        height: 17rem;
+        width: 100%;
+        margin-bottom: -2rem;
+    }
+    .happ .about-img img{
+        height: 15rem;
+        width: 100%;
+        margin-left: -3px;
+    }
+    .happ .about-text{
+        height: 40rem;  
+    }
+    .happ2 .about-img img{
+        height: 15rem;
+        width: 100%;
+        margin-top: -1rem;
+        margin-left: -3px
+    }
+    .happ2 .about-text{
+        height: 40rem;
+        margin-top: 1rem;
+        
+    }
+}
